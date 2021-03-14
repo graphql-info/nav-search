@@ -1,0 +1,27 @@
+{
+  "name": "@graphql-info/nav-search",
+  "version": "0.0.1",
+  "description": "Search for documentation",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "GraphQL",
+    "documentation",
+    "graphql-info"
+  ],
+  "author": "Ilya Volodin",
+  "license": "MIT",
+  "dependencies": {
+    "@popeindustries/lit-html-server": "^3.1.0"
+  },
+  "peerDependencies": {
+    "@graphql-info/core": "^0.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
