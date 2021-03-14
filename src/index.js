@@ -5,7 +5,7 @@ module.exports = {
     init: () => [{ name: 'css/search.css', path: path.resolve(__dirname, './assets/css/search.css') }],
     render: (pages, currentItem, base) => {
         const output = [html`
-            <input class="search">
+            <input class="search" placeholder="Search...">
             <script>
                 document.querySelector('.search').addEventListener("keyup", (e) => {
                     const value = e.currentTarget.value.toUpperCase();
